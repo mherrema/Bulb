@@ -1,0 +1,42 @@
+.bd-block{
+  padding: 2em;
+  opacity: .9;
+  margin-bottom: 1.875rem;
+  cursor: pointer;
+
+  h1, h2, h3, h4{
+    font-family: montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  &.bd-block--medium{
+    min-height: 300px;
+  }
+
+  &.bd-block--yellow{
+    background-color: #F7D031;
+    color: white;
+  }
+  &.bd-block--blue{
+    background-color: #41AEA0;
+    color: white;
+  }
+  &.bd-block--green{
+    background-color: #66BF62;
+    color: white;
+  }
+  &.bd-block--red{
+    background-color: #E8501F;
+    color: white;
+  }
+  &.bd-block--gray{
+    background-color: #333;
+    color: white;
+  }
+}
